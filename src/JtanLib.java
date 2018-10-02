@@ -9,10 +9,16 @@ public class JtanLib {
         } else return false;
 
     }
-}
-    public static String dateSTR( String date) {
 
+
+    public static String dateSTR(String Date) {
+        String day = Date.substring(3,5);
+        String month =Date.substring(0,2);
+        String year = Date.substring(6);
+        String date =  day + "-" + month + "-" + year;
+        return date;
     }
 
 
-
+    public static
+}
