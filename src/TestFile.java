@@ -1,5 +1,5 @@
 public class TestFile {
     public static void main(String [] args) {
-        System.out.println(JtanLib.isPalindrome("cat"));
+        System.out.println(JtanLib.isPalindrome("lol"));
     }
 }
