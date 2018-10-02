@@ -1,11 +1,18 @@
 public class JtanLib {
-    public static boolean isPalindrome(String str1)
-    {
-        String reverse= "";
-        for (int i = str1.length() -1; i == 0; i--) {
-            reverse = reverse + str1.substring(str1.length() - i - 1, str1.length() - 1);
+    public static boolean isPalindrome(String str1) {
+        String reverse = "";
+        for (int i = str1.length(); i != 0; i--) {
+            reverse = reverse + str1.substring(i - 1, i);
         }
-        if (reverse.equals(str1)) return true;
-        else return false;
+        if (reverse.equals(str1)) {
+            return true;
+        } else return false;
+
     }
 }
+    public static String dateSTR( String date) {
+
+    }
+
+
+
