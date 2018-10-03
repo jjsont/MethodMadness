@@ -1,3 +1,5 @@
+import jdk.internal.org.objectweb.asm.tree.MultiANewArrayInsnNode;
+
 public class JtanLib {
     public static boolean isPalindrome(String str1) {
         String reverse = "";
@@ -20,5 +22,10 @@ public class JtanLib {
     }
 
 
-    public static
+    public static String cutOut(String mainSTR, String subSTR) {
+        int Cut = mainSTR.indexOf(subSTR);
+        String part1 = mainSTR.substring(0, Cut);
+        String part2 = mainSTR.substring(Cut +subSTR.length());
+        return (part1 + part2);
+    }
 }
