@@ -29,4 +29,39 @@ public class JtanLib {
         return (part1 + part2);
     }
 
+
+
+
+    public static boolean isFibonacci(int F) {
+        int fib= 1;
+        int onnaci= 1;
+        while (onnaci < F) {
+            int x= fib + onnaci;
+            System.out.println(onnaci);
+            fib=onnaci;
+            onnaci=x;
+            if(F == onnaci) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+
+
+    public static int sumUpTo(int n) {
+        int x= 0;
+        for (int i= 0; i <= n; i++) {
+            x += i;
+        }
+        return x;
+    }
+
+
+
+
+
+
+
 }
