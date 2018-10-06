@@ -6,7 +6,6 @@ public class TestFile {
         System.out.println(JtanLib.dateSTR("07/06/2001"));
         System.out.println(JtanLib.cutOut("pizzabizza boy", "pizza"));
         System.out.println(JtanLib.isFibonacci(8));
-        System.out.println("s");
         System.out.println(JtanLib.isFibonacci(20));
         System.out.println(JtanLib.sumUpTo(3));
     }
